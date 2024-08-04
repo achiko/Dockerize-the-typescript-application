@@ -1,0 +1,9 @@
+services:
+  api:
+    build:
+      context: .
+      target: production
+    volumes:
+      - /usr/src/app/node_modules # to avoid installing node_modules in the host machine
+    ports:
+      - "3000:3000"
