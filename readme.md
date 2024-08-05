@@ -6,7 +6,7 @@
 ## Running Development mode 
 
 ```bash
-    docker-compose up -f docker-compose.dev.yaml -v
+    docker-compose -f docker-compose.dev.yaml up
 ```
 
 ## Build Production 
