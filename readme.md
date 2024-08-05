@@ -12,7 +12,7 @@
 ## Build Production 
 
 ```bash
-    docker-compose up -f docker-compose.yaml
+    docker-compose -f docker-compose.yaml up
 ```
 
 
